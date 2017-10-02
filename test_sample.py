@@ -20,6 +20,10 @@ class SampleTest(unittest.TestCase):
         result = add([3], [5])
         self.assertEquals([3, 5], result)
 
+    def test_bad_test(self):
+        """ A failing unit test. """
+        self.assertTrue(False)
+
 
 if __name__ == '__main__':
     unittest.main()
