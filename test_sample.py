@@ -20,6 +20,10 @@ class SampleTest(unittest.TestCase):
         result = add([3], [5])
         self.assertEquals([3, 5], result)
 
+    def test_subtract_integer(self):
+        result = subtract(15,10)
+        self.assertEquals(5, result)
+
 
 if __name__ == '__main__':
     unittest.main()
