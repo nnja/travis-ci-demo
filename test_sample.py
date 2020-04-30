@@ -1,6 +1,6 @@
 import unittest
 
-from sample import add
+from sample import add, subtract
 
 
 class SampleTest(unittest.TestCase):
